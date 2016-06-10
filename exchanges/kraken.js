@@ -5,16 +5,20 @@ var _ = require('lodash');
 var log = require('../core/log');
 
 var crypto_currencies = [
+  "DAO",
+  "ETH",
   "LTC",
-  "NMC",
   "XBT",
-  "XVN",
+  "XDG",
+  "XLM",
   "XRP"
 ];
 
 var fiat_currencies = [
+  "CAD",
   "EUR",
-  "KRW",
+  "GBP",
+  "JPY",
   "USD"
 ];
 
